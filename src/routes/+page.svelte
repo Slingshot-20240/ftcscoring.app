@@ -1,5 +1,5 @@
 <head>
-	<title>DECODE™ Scorer | 20240 Slingshot</title>
+	<title>DECODE™ Scorer for FTC | 20240 Slingshot</title>
 </head>
 
 <main>
