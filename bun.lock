@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "theftc.app",
+      "name": "ftcscoring.app",
       "devDependencies": {
         "@eslint/compat": "^1.2.3",
         "@sveltejs/adapter-auto": "^3.0.0",
