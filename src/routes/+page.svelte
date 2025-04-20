@@ -21,7 +21,11 @@
 		><span>Join the beta waitlist</span></a
 	>
 
-	<a id="itd" href="https://itd.ftcscoring.app" target="_blank">INTO THE DEEP℠ Scorer ↗</a>
+	<div>
+		<a class="link" href="https://theftc.app" target="_blank">FTC App ↗</a>
+    <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+		<a class="link" href="https://itd.ftcscoring.app" target="_blank">INTO THE DEEP℠ Scorer ↗</a>
+	</div>
 </main>
 
 <style>
@@ -104,15 +108,19 @@
 			}
 		}
 
-		#itd {
-			margin: min(1.2rem, 4vw) 0 0.2rem 0;
-      font-size: min(0.8rem, 3vw);
-			color: #876;
-			transition: color 0.2s;
+		div {
+			display: flex;
 
-      &:hover {
-        color: #000;
-      }
+			* {
+				margin: min(1.2rem, 4vw) 0 0.2rem 0;
+				font-size: min(0.8rem, 3vw);
+				color: #876;
+				transition: color 0.2s;
+
+				&.link:hover {
+					color: #000;
+				}
+			}
 		}
 	}
 </style>
