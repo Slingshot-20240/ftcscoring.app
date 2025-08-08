@@ -1,7 +1,7 @@
 
 # The FTC App Website
 
-This is a private repo hosting the files for [ftcscoring.app](https://ftcscoring.app)
+This repo hosts the files for [theftc.app](https://theftc.app)
 
 ## Copyright
 
