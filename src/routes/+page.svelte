@@ -16,12 +16,16 @@
 
 	<h2>The ultimate scorer, <b>redefined.</b></h2>
 
-	<h3>September 12</h3>
+	<h3>You've never seen a scorer like this.</h3>
+
+	<a id="ios-beta" target="_blank" href="https://testflight.apple.com/join/wJ6S1QpV"
+		><span>Get the iOS beta</span></a
+	>
 
 	<a
 		id="waitlist"
-		href="mailto:beta@ftcscoring.app?subject=Beta%20Waitlist%20Request%20for%20the%20DECODE%E2%84%A2%20Scorer%20presented%20by%2020240%20Slingshot&body=Please%20use%20your%20Apple%20Account%20(formerly%20Apple%20ID)%20email%20address%20if%20you%20use%20an%20iPhone%20or%20iPad.%0AFor%20Android%20users%2C%20use%20your%20primary%20Google%20Account%20email%20address.%0A%0AThis%20is%20an%20automatically%20generated%20request.%0A%0ABy%20sending%20this%20email%20request%2C%20you%20agree%20to%20receive%20further%20email%20communications%20from%20beta%40ftcscoring.app%20regarding%20the%20DECODE%E2%84%A2%20Scorer%20presented%20by%2020240%20Slingshot%20development%20and%20beta%20program."
-		><span>Join the beta waitlist</span></a
+		href="mailto:beta@ftcscoring.app?subject=Android%20Beta%20Waitlist%20Request%20for%20the%20DECODE%E2%84%A2%20Scorer%20presented%20by%2020240%20Slingshot&body=This%20is%20an%20automatically%20generated%20request.%0A%0ABy%20sending%20this%20email%20request%2C%20you%20agree%20to%20receive%20further%20email%20communications%20from%20beta%40ftcscoring.app%20regarding%20the%20DECODE%E2%84%A2%20Scorer%20presented%20by%2020240%20Slingshot%20development%20and%20beta%20program."
+		>Join the Android beta waitlist ↗</a
 	>
 
 	<div>
@@ -95,27 +99,34 @@
 			font-weight: 300;
 		}
 
-		#waitlist {
+		#ios-beta {
 			margin: min(1.2rem, 4vw) 0 0.2rem 0;
 			padding: calc(min(1.2rem, 4vw) / 3) calc(min(1.2rem, 4vw) / 2);
 			background: linear-gradient(180deg, #1f1f1f 0%, #0f0f0f 100%);
-			border-radius: calc(min(1.2rem, 4vw) / 2);
+			border-radius: calc(min(1.4rem, 4.2vw) / 2);
 			transition: filter 0.2s;
 
 			span {
 				font-size: min(1.2rem, 4vw);
 				font-weight: 600;
-				color: transparent;
-				background: linear-gradient(90deg, #e5ae32 0%, #ea572e 25%, #92dbac 50%, #598290 100%);
-				background-clip: text;
+				color: #e5ae32;
+				transition: filter 0.2s;
 			}
 
 			&:hover {
-				filter: invert();
+				filter: brightness(1.1);
+			}
+		}
 
-				span {
-					filter: invert();
-				}
+		#waitlist {
+			margin: min(1.2rem, 4vw) 0 0.2rem 0;
+			transition: color 0.2s;
+			font-size: min(1rem, 3.6vw);
+			font-weight: 500;
+			color: #000;
+
+			&:hover {
+				color: #836112;
 			}
 		}
 
