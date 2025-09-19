@@ -79,7 +79,7 @@
 		}
 
 		#hs {
-			width: min(56rem, 100%);
+			width: min(52rem, 100%);
 		}
 
 		h2 {
