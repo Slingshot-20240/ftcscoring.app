@@ -4,7 +4,7 @@
 
 	<meta
 		name="description"
-		content="Introducing the DECODE™ Scorer, presented by 20240 Slingshot, for the 2025-2026 FIRST® AGE™ season."
+		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
 	/>
 
 	<meta property="og:url" content="https://ftcscoring.app" />
@@ -12,7 +12,7 @@
 	<meta property="og:title" content="DECODE™ Scorer for FTC | 20240 Slingshot" />
 	<meta
 		property="og:description"
-		content="Introducing the DECODE™ Scorer, presented by 20240 Slingshot, for the 2025-2026 FIRST® AGE™ season."
+		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
 	/>
 	<meta property="og:image" content="/ogp.png" />
 
@@ -22,7 +22,7 @@
 	<meta name="twitter:title" content="DECODE™ Scorer for FTC | 20240 Slingshot" />
 	<meta
 		name="twitter:description"
-		content="Introducing the DECODE™ Scorer, presented by 20240 Slingshot, for the 2025-2026 FIRST® AGE™ season."
+		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
 	/>
 	<meta name="twitter:image" content="/ogp.png" />
 
