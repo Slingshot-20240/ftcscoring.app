@@ -1,7 +1,33 @@
-<head>
+<svelte:head>
 	<title>DECODE™ Scorer for FTC | 20240 Slingshot</title>
 	<link rel="canonical" href="https://ftcscoring.app/" />
-</head>
+
+	<meta
+		name="description"
+		content="Introducing the DECODE™ Scorer, presented by 20240 Slingshot, for the 2025-2026 FIRST® AGE™ season."
+	/>
+
+	<meta property="og:url" content="https://ftcscoring.app" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="DECODE™ Scorer for FTC | 20240 Slingshot" />
+	<meta
+		property="og:description"
+		content="Introducing the DECODE™ Scorer, presented by 20240 Slingshot, for the 2025-2026 FIRST® AGE™ season."
+	/>
+	<meta property="og:image" content="/ogp.png" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="ftcscoring.app" />
+	<meta property="twitter:url" content="https://ftcscoring.app" />
+	<meta name="twitter:title" content="DECODE™ Scorer for FTC | 20240 Slingshot" />
+	<meta
+		name="twitter:description"
+		content="Introducing the DECODE™ Scorer, presented by 20240 Slingshot, for the 2025-2026 FIRST® AGE™ season."
+	/>
+	<meta name="twitter:image" content="/ogp.png" />
+
+	<meta name="theme-color" content="#F4E3C5" />
+</svelte:head>
 
 <main>
 	<h1>DECODE™ Scorer for the FIRST® Tech Challenge</h1>
@@ -29,9 +55,13 @@
 	>
 
 	<div>
+		<a class="link" href="/privacy">Privacy Policy</a>
+		<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+		<a class="link" href="/terms">Terms & Conditions</a>
+		<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 		<a class="link" href="/ftc-app" target="_blank">FTC App ↗</a>
 		<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-		<a class="link" href="https://itd.ftcscoring.app" target="_blank">INTO THE DEEP℠ Scorer ↗</a>
+		<a class="link" href="/github" target="_blank">GitHub ↗</a>
 	</div>
 </main>
 

@@ -2,17 +2,16 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		window.location.href = 'https://theftc.app';
+		window.location.href = 'https://github.com/Slingshot-20240/';
 	});
 </script>
 
 <svelte:head>
 	<title>Redirecting...</title>
-	<link rel="canonical" href="https://theftc.app" />
+	<link rel="canonical" href="https://github.com/Slingshot-20240/" />
 </svelte:head>
 
-<p>Redirecting to the FTC App...</p>
-<p>presented by 20240 Slingshot</p>
+<p>Redirecting to the Slingshot GitHub page...</p>
 
 <style>
 	p {
