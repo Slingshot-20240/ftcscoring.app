@@ -54,14 +54,18 @@
 		>Join the Android beta waitlist ↗</a
 	>
 
-	<div>
-		<a class="link" href="/privacy">Privacy Policy</a>
-		<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-		<a class="link" href="/terms">Terms & Conditions</a>
-		<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-		<a class="link" href="/ftc-app" target="_blank">FTC App ↗</a>
-		<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-		<a class="link" href="/github" target="_blank">GitHub ↗</a>
+	<div id="footnotes">
+		<div>
+			<a class="link" href="/ftc-app" target="_blank">FTC App ↗</a>
+			<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			<a class="link" href="/github" target="_blank">GitHub ↗</a>
+		</div>
+
+		<div>
+			<a class="link" href="/privacy">Privacy Policy</a>
+			<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+			<a class="link" href="/terms">Terms & Conditions</a>
+		</div>
 	</div>
 </main>
 
@@ -127,6 +131,7 @@
 			margin: calc(min(1.6rem, 5vw) / 3) 0 0.2rem 0;
 			font-size: min(1.6rem, 5vw);
 			font-weight: 300;
+			text-align: center;
 		}
 
 		#ios-beta {
@@ -160,17 +165,24 @@
 			}
 		}
 
-		div {
+		#footnotes {
 			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: min(1.2rem, 4vw);
 
-			* {
-				margin: min(1.2rem, 4vw) 0 0.2rem 0;
-				font-size: min(0.8rem, 3vw);
-				color: #876;
-				transition: color 0.2s;
+			div {
+				display: flex;
 
-				&.link:hover {
-					color: #000;
+				* {
+					margin: 0.4rem 0 0.4rem 0;
+					font-size: min(0.8rem, 3vw);
+					color: #876;
+					transition: color 0.2s;
+
+					&.link:hover {
+						color: #000;
+					}
 				}
 			}
 		}
