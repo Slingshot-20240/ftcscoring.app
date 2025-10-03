@@ -35,18 +35,16 @@
 	<img id="logo" src="/logo.png" alt="FTC Team 20240 Slingshot Logo" />
 
 	<img
-		id="hs"
-		src="/homescreen.png"
-		alt="DECODE™ Scorer presented by 20240 Slingshot App Home Screen"
+		id="gsv"
+		src="/gameScoreView.png"
+		alt="Full game scoring view in the DECODE™ Scorer presented by 20240 Slingshot app"
 	/>
 
 	<h2>The ultimate scorer, <b>redefined.</b></h2>
 
 	<h3>You've never seen a scorer like this.</h3>
 
-	<a id="ios-beta" target="_blank" href="https://testflight.apple.com/join/wJ6S1QpV"
-		><span>Get the iOS beta</span></a
-	>
+	<a id="ios-download" target="_blank" href="/ios-download"><img src="/ios-preorder-badge.svg" alt="Pre-order on the Apple® App Store®"></a>
 
 	<a
 		id="waitlist"
@@ -56,6 +54,8 @@
 
 	<div id="footnotes">
 		<div>
+			<a class="link" href="/ios-beta" target="_blank">iOS Beta ↗</a>
+			<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 			<a class="link" href="/ftc-app" target="_blank">FTC App ↗</a>
 			<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 			<a class="link" href="/github" target="_blank">GitHub ↗</a>
@@ -108,17 +108,17 @@
 		}
 
 		#logo {
-			margin: 0 0 calc(min(12rem, 40%) / 16) 0;
-			width: min(12rem, 40%);
+			width: min(10rem, 36%);
 		}
 
-		#hs {
+		#gsv {
+			margin: max(-1rem, -4%) 0 min(0.6rem, 3%) 0;
 			width: min(52rem, 100%);
 		}
 
 		h2 {
 			margin: calc(min(2.8rem, 8vw) / 3) 0 0.2rem 0;
-			font-size: min(2.8rem, 8vw);
+			font-size: min(2.4rem, 7.2vw);
 			font-weight: 300;
 			text-align: center;
 
@@ -129,32 +129,21 @@
 
 		h3 {
 			margin: calc(min(1.6rem, 5vw) / 3) 0 0.2rem 0;
-			font-size: min(1.6rem, 5vw);
+			font-size: min(1.4rem, 4.8vw);
 			font-weight: 300;
 			text-align: center;
 		}
 
-		#ios-beta {
-			margin: min(1.2rem, 4vw) 0 0.2rem 0;
-			padding: calc(min(1.2rem, 4vw) / 3) calc(min(1.2rem, 4vw) / 2);
-			background: linear-gradient(180deg, #1f1f1f 0%, #0f0f0f 100%);
-			border-radius: calc(min(1.4rem, 4.2vw) / 2);
-			transition: filter 0.2s;
-
-			span {
-				font-size: min(1.2rem, 4vw);
-				font-weight: 600;
-				color: #e5ae32;
-				transition: filter 0.2s;
-			}
-
-			&:hover {
-				filter: brightness(1.1);
+		#ios-download {
+			margin: min(1.2rem, 4vw) 0 0 0;
+			width: min(8rem, 32%);
+			img {
+				width: 100%;
 			}
 		}
 
 		#waitlist {
-			margin: min(1.2rem, 4vw) 0 0.2rem 0;
+			margin: min(1rem, 3.2vw) 0 0.2rem 0;
 			transition: color 0.2s;
 			font-size: min(1rem, 3.6vw);
 			font-weight: 500;
