@@ -18,7 +18,7 @@
 		property="og:description"
 		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
 	/>
-	<meta property="og:image" content="/ogp.png" />
+	<meta property="og:image" content="/ogp.jpg" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta property="twitter:domain" content="ftcscoring.app" />
@@ -28,7 +28,7 @@
 		name="twitter:description"
 		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
 	/>
-	<meta name="twitter:image" content="/ogp.png" />
+	<meta name="twitter:image" content="/ogp.jpg" />
 
 	<meta name="theme-color" content="#F4E3C5" />
 </svelte:head>
