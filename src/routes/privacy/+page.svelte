@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Privacy Policy | DECODE™ Scorer for FTC | 20240 Slingshot</title>
+	<title>Privacy Policy | DECODE™ Scorer for FTC® | 20240 Slingshot</title>
 	<link rel="canonical" href="https://ftcscoring.app/privacy" />
 
 	<style>

@@ -1,5 +1,9 @@
+<script lang="ts">
+	const ts = Date.now();
+</script>
+
 <svelte:head>
-	<title>DECODE™ Scorer for FTC | 20240 Slingshot</title>
+	<title>DECODE™ Scorer for FTC® | 20240 Slingshot</title>
 	<link rel="canonical" href="https://ftcscoring.app/" />
 
 	<meta
@@ -9,7 +13,7 @@
 
 	<meta property="og:url" content="https://ftcscoring.app" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="DECODE™ Scorer for FTC | 20240 Slingshot" />
+	<meta property="og:title" content="DECODE™ Scorer for FTC® | 20240 Slingshot" />
 	<meta
 		property="og:description"
 		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
@@ -19,7 +23,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta property="twitter:domain" content="ftcscoring.app" />
 	<meta property="twitter:url" content="https://ftcscoring.app" />
-	<meta name="twitter:title" content="DECODE™ Scorer for FTC | 20240 Slingshot" />
+	<meta name="twitter:title" content="DECODE™ Scorer for FTC® | 20240 Slingshot" />
 	<meta
 		name="twitter:description"
 		content="Introducing the DECODE™ Scorer presented by 20240 Slingshot. The ultimate scorer, redefined for the 2025-2026 FIRST® Tech Challenge season."
@@ -36,7 +40,7 @@
 
 	<img
 		id="gsv"
-		src="/gameScoreView.png"
+		src="/game-score-view.png"
 		alt="Full game scoring view in the DECODE™ Scorer presented by 20240 Slingshot app"
 	/>
 
@@ -44,7 +48,13 @@
 
 	<h3>You've never seen a scorer like this.</h3>
 
-	<a id="ios-download" target="_blank" href="/ios-download"><img src="/ios-preorder-badge.svg" alt="Pre-order on the Apple® App Store®"></a>
+	<a id="ios-download" target="_blank" href="/ios-download">
+		{#if ts > 1759647600000}
+			<img src="/ios-download-badge.svg" alt="Download on the Apple® App Store®" />
+		{:else}
+			<img src="/ios-preorder-badge.svg" alt="Pre-order on the Apple® App Store®" />
+		{/if}
+	</a>
 
 	<a
 		id="waitlist"

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Terms & Conditions | DECODE™ Scorer for FTC | 20240 Slingshot</title>
+	<title>Terms & Conditions | DECODE™ Scorer for FTC® | 20240 Slingshot</title>
 	<link rel="canonical" href="https://ftcscoring.app/terms" />
 
 	<style>

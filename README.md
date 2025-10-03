@@ -1,5 +1,5 @@
 
-# The DECODE™ Scorer for FTC Website
+# The DECODE™ Scorer for FTC® Website
 
 This repo hosts the files for [ftcscoring.app](https://ftcscoring.app)
 
