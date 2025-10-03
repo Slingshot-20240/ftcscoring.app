@@ -118,11 +118,11 @@
 		}
 
 		#logo {
-			width: min(10rem, 36%);
+			width: min(8.8rem, 28%);
 		}
 
 		#gsv {
-			margin: max(-1rem, -4%) 0 min(0.6rem, 3%) 0;
+			margin: max(-1rem, -2%) 0 min(0.6rem, 3%) 0;
 			width: min(52rem, 100%);
 		}
 
