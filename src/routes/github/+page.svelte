@@ -12,6 +12,12 @@
 </svelte:head>
 
 <p>Redirecting to the Slingshot GitHub page...</p>
+<p>
+	Not working? <a
+		href="https://github.com/Slingshot-20240/"
+		rel="noopener noreferrer">Click here</a
+	>.
+</p>
 
 <style>
 	p {

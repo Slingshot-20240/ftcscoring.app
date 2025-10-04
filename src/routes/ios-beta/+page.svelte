@@ -11,7 +11,13 @@
 	<link rel="canonical" href="https://testflight.apple.com/join/wJ6S1QpV" />
 </svelte:head>
 
-<p>Redirecting to Apple® TestFlight®...</p>
+<p>Redirecting to TestFlight...</p>
+<p>
+	Not working? <a
+		href="https://testflight.apple.com/join/wJ6S1QpV"
+		rel="noopener noreferrer">Click here</a
+	>.
+</p>
 
 <style>
 	p {

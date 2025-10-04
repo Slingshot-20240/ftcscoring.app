@@ -13,6 +13,12 @@
 
 <p>Redirecting to the FTC App...</p>
 <p>presented by 20240 Slingshot</p>
+<p>
+	Not working? <a
+		href="https://theftc.app"
+		rel="noopener noreferrer">Click here</a
+	>.
+</p>
 
 <style>
 	p {

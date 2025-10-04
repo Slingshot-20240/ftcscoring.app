@@ -30,6 +30,8 @@
 	/>
 	<meta name="twitter:image" content="/ogp.jpg" />
 
+	<meta name="apple-itunes-app" content="app-id=6747642046" />
+
 	<meta name="theme-color" content="#F4E3C5" />
 </svelte:head>
 
@@ -50,9 +52,9 @@
 
 	<a id="ios-download" target="_blank" href="/ios-download">
 		{#if ts > 1759647600000}
-			<img src="/ios-download-badge.svg" alt="Download on the Apple® App Store®" />
+			<img src="/ios-download-badge.svg" alt="Download on the Apple App Store" />
 		{:else}
-			<img src="/ios-preorder-badge.svg" alt="Pre-order on the Apple® App Store®" />
+			<img src="/ios-preorder-badge.svg" alt="Pre-order on the Apple App Store" />
 		{/if}
 	</a>
 
@@ -122,7 +124,7 @@
 		}
 
 		#gsv {
-			margin: max(-1rem, -2%) 0 min(0.6rem, 3%) 0;
+			margin: max(-0.4rem, -1.2%) 0 min(0.6rem, 3%) 0;
 			width: min(52rem, 100%);
 		}
 

@@ -16,6 +16,12 @@
 </svelte:head>
 
 <p>Redirecting to GitHub...</p>
+<p>
+	Not working? <a
+		href="https://github.com/Slingshot-20240/decode-scorer-ios/?tab=readme-ov-file#licenses"
+		rel="noopener noreferrer">Click here</a
+	>.
+</p>
 
 <style>
 	p {

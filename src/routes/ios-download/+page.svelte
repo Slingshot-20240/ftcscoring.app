@@ -8,10 +8,19 @@
 
 <svelte:head>
 	<title>Redirecting...</title>
-	<link rel="canonical" href="https://apps.apple.com/us/app/ftc-decode-scorer-by-20240/id6747642046" />
+	<link
+		rel="canonical"
+		href="https://apps.apple.com/us/app/ftc-decode-scorer-by-20240/id6747642046"
+	/>
 </svelte:head>
 
-<p>Redirecting to the Apple® App Store®...</p>
+<p>Redirecting to the Apple App Store...</p>
+<p>
+	Not working? <a
+		href="https://apps.apple.com/us/app/ftc-decode-scorer-by-20240/id6747642046"
+		rel="noopener noreferrer">Click here</a
+	>.
+</p>
 
 <style>
 	p {
