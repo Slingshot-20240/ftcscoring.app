@@ -51,7 +51,7 @@
 	<h3>You've never seen a scorer like this.</h3>
 
 	<a id="ios-download" target="_blank" href="/ios-download">
-		{#if ts > 1759647600000}
+		{#if ts > 1759633200000}
 			<img src="/ios-download-badge.svg" alt="Download on the Apple App Store" />
 		{:else}
 			<img src="/ios-preorder-badge.svg" alt="Pre-order on the Apple App Store" />
